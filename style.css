@@ -103,3 +103,48 @@ url("./assets/banner.jpg");
     font-size: 1.5rem;
 }
 /* -----Hero section END here----- */
+
+/*      <!-- Meet the Speakers Section Start -->  */
+.meet_speaker{
+    max-width: 1100px;
+    margin: 3rem auto;
+    
+
+}
+.meet_speaker h2{
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 3rem;
+}
+
+.speakers_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+.speaker_card{
+    border: 1px solid gray;
+    border-radius: 0 0 8px 8px;
+    padding-bottom: 1rem;
+    
+}
+.speaker_card img{
+    max-width: 100%;
+}
+.industry_name, .speaker_name, .speaker_role{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.industry_name{
+    font-size: 0.8rem;
+    color: #1D4ED8;
+}
+.speaker_name{
+    font-size: 1.9rem;
+    font-weight: 900;
+}
+.speaker_role{
+    color: gray;
+    font-size: 1rem;
+}
+/*      <!-- Meet the Speakers Section End -->  */

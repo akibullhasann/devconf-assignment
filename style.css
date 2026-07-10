@@ -1,0 +1,67 @@
+/* base */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* utilities */
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.common_btn{
+    background: #1D4ED8;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+header{
+    background: #ffffff;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* NAVBAR SECTION START FROM HERE FOR CSS */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+    padding: 2rem 1.5rem;
+}
+
+.navbar_left{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.logo_text{
+    display: block;
+}
+.text_1{
+    font-size: 20px;
+}
+.text_2{
+    font-size: 18px;
+}
+
+.navbar_center ul{
+    display: flex;
+    gap: 3rem;
+}
+.navbar_center ul li a{
+    color: #575757;
+}

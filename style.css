@@ -249,3 +249,168 @@ url("./assets/banner.jpg");
 }
 
 /*   <!------ Pricing Section END Here---- --> */
+
+
+/* ===================== HACKATHON DETAILS SECTION ===================== */
+
+.hackathon {
+  background-color: #ffffff; /* white background as requested */
+  padding: 80px 60px;
+  text-align: center;
+}
+
+/* Section heading, matches style of other section headings */
+.hackathon-heading {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.hackathon-subtitle {
+  font-size: 16px;
+  color: #6b6b6b;
+  margin-bottom: 48px;
+}
+
+/* Two column layout: info card on left, timeline on right */
+.hackathon-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; /* makes both columns the same height */
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: left;
+  gap: 40px;
+}
+
+/* ---------------- LEFT COLUMN: info card ---------------- */
+
+.hackathon-info {
+  flex: 1;
+  background-color: #f5f7fb; /* very light gray-blue so it stands out from white bg */
+  border-radius: 12px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* pushes button to the bottom, matching timeline height */
+}
+
+.info-title {
+  font-size: 22px;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+}
+
+.info-desc {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555555;
+  margin-bottom: 28px;
+}
+
+/* Row of 3 stat boxes, side by side using flexbox */
+.info-stats {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.stat-box {
+  flex: 1;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 14px 10px;
+  text-align: center;
+}
+
+.stat-value {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.stat-label {
+  display: block;
+  font-size: 12px;
+  color: #777777;
+  margin-top: 4px;
+}
+
+/* Register button - blue background as requested */
+.register-btn {
+  background-color: #2563eb; /* blue */
+  color: #ffffff;
+  border: none;
+  padding: 14px 28px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background-color: #1d4ed8; /* slightly darker blue on hover */
+}
+
+/* ---------------- RIGHT COLUMN: vertical timeline ---------------- */
+
+.hackathon-timeline {
+  flex: 1;
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6; /* light border gives it the same visual weight as the left card */
+  border-radius: 12px;
+  padding: 40px 40px 40px 55px; /* extra left space leaves room for the line + dots */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centers the 4 items vertically, so the box matches the left card's height nicely */
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.timeline-item.last {
+  margin-bottom: 0; /* removes extra space after the final item */
+}
+
+/* Vertical connecting line between dots, drawn once per item (except the last) */
+.timeline-item:not(.last)::after {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 16px;
+  width: 2px;
+  height: calc(100% + 16px); /* stretches down to meet the next dot */
+  background-color: #dbe4f3; /* soft line color, lighter than the dot itself */
+}
+
+/* The dot on the timeline, placed using ::before pseudo-element */
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -25px; /* aligns the dot with the connecting line above */
+  top: 3px;
+  width: 12px;
+  height: 12px;
+  background-color: #2563eb;
+  border: 3px solid #e6f0ff; /* soft ring around the dot for a more polished look */
+  border-radius: 50%; /* makes it a circle */
+}
+
+.timeline-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.timeline-time {
+  font-size: 13px;
+  color: #888888;
+}
+
+/* =================== END HACKATHON DETAILS SECTION =================== */

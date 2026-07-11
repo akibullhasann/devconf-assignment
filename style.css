@@ -23,6 +23,11 @@ a:hover{
     color: #ffffff;
     font-weight: 700;
     font-size: 1rem;
+    cursor: pointer
+}
+.common_btn:hover{
+    background: white;
+    color: #1D4ED8;
 }
 
 header{
@@ -101,6 +106,9 @@ url("./assets/banner.jpg");
 
 .hero_btn.common_btn{
     font-size: 1.5rem;
+}
+.connect{
+    font-style: italic;
 }
 /* -----Hero section END here----- */
 
@@ -414,3 +422,103 @@ url("./assets/banner.jpg");
 }
 
 /* =================== END HACKATHON DETAILS SECTION =================== */
+
+
+
+/* <!-------- FOOTER SECTION START FROM HERE --------> */
+/* event_footer_newsletter */
+footer{
+    background: rgb(132, 225, 240);
+}
+.event_footer_newsletter{
+    padding: 3rem 0;
+}
+.event_footer_newsletter_title{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+input[type=text], input[type=email], .select{
+    border-radius: 5px;
+    padding: 0.7rem 1.5rem;
+    border:none;
+    background: #ffffff;
+    font-size: 1rem;
+}
+
+/* link footer */
+.link_footer_flex{
+    display: flex;
+   
+    justify-content: space-between;
+    padding: 0 4rem;
+}
+.link_container{
+    flex: 1;
+    margin-right: 3rem;
+}
+.link_title{
+    font-size: 1.6rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+    font-weight: 900;
+    width: 100%;
+}
+.link_container ul{
+    margin-top: 1.5rem;
+}
+.link_container ul li{
+    margin-bottom: 0.5rem;
+}
+
+/* social media link */
+.social_link{
+    margin-top: 3rem;
+    
+    padding: 0 4rem 5rem 4rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5rem;
+}
+.med_link{
+    font-size: 3rem;
+}
+.fa-facebook-f{
+    color: blue;
+}
+.fa-instagram{
+    color:orange;
+}
+.fa-brands{
+    cursor: pointer;
+}
+
+
+/* bottom  footer */
+.bottom_footer{
+    padding: 2rem 3rem;
+    background: #ffffff;
+}
+.bottom_footer ul{
+    display: flex;
+    gap: 0.9rem;
+    flex-wrap: wrap;
+}
+.bottom_footer ul li  a{
+    font-size: 1.3rem;
+    text-wrap: nowrap;
+}
+.copyright{
+    margin-top:0.9rem
+}
+
+/* <!-------- FOOTER SECTION ENNNNNNNNND   HERE --------> */SS

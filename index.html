@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Assignment for DEVconf</title>
     <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
 
 <body>
@@ -55,7 +57,7 @@
 
         <!-- Hero Section END Here -->
 
-     
+
         <!-- Meet the Speakers Section Start -->
 
         <section class="meet_speaker">
@@ -150,85 +152,161 @@
         </section>
 
         <!-- ===================== HACKATHON DETAILS SECTION ===================== -->
-<!-- This is the "Placeholder / AI Challenge" section for DevConf 2026 -->
-<section class="hackathon">
+        <!-- This is the "Placeholder / AI Challenge" section for DevConf 2026 -->
+        <section class="hackathon">
 
-  <!-- Section heading + subtitle, same pattern as other sections -->
-  <h2 class="hackathon-heading">Build. Ship. Win.</h2>
-  <p class="hackathon-subtitle">DevConf Hackathon 2026</p>
+            <!-- Section heading + subtitle, same pattern as other sections -->
+            <h2 class="hackathon-heading">Build. Ship. Win.</h2>
+            <p class="hackathon-subtitle">DevConf Hackathon 2026</p>
 
-  <!-- Two column wrapper: left = info card, right = timeline -->
-  <div class="hackathon-content">
+            <!-- Two column wrapper: left = info card, right = timeline -->
+            <div class="hackathon-content">
 
-    <!-- LEFT COLUMN: overview card -->
-    <div class="hackathon-info">
-      <h3 class="info-title">DevConf Hackathon 2026</h3>
-      <p class="info-desc">
-        Build tools that help developer communities connect, collaborate,
-        and ship ideas faster during a single intense weekend.
-      </p>
+                <!-- LEFT COLUMN: overview card -->
+                <div class="hackathon-info">
+                    <h3 class="info-title">DevConf Hackathon 2026</h3>
+                    <p class="info-desc">
+                        Build tools that help developer communities connect, collaborate,
+                        and ship ideas faster during a single intense weekend.
+                    </p>
 
-      <!-- Row of 3 quick stat boxes -->
-      <div class="info-stats">
-        <div class="stat-box">
-          <span class="stat-value">48</span>
-          <span class="stat-label">Hours</span>
-        </div>
-        <div class="stat-box">
-          <span class="stat-value">$5,000</span>
-          <span class="stat-label">Prize pool</span>
-        </div>
-        <div class="stat-box">
-          <span class="stat-value">4</span>
-          <span class="stat-label">Per team</span>
-        </div>
-      </div>
+                    <!-- Row of 3 quick stat boxes -->
+                    <div class="info-stats">
+                        <div class="stat-box">
+                            <span class="stat-value">48</span>
+                            <span class="stat-label">Hours</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-value">$5,000</span>
+                            <span class="stat-label">Prize pool</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-value">4</span>
+                            <span class="stat-label">Per team</span>
+                        </div>
+                    </div>
 
-      <!-- Call to action button -->
-      <button class="register-btn">Register Team</button>
-    </div>
+                    <!-- Call to action button -->
+                    <button class="register-btn">Register Team</button>
+                </div>
 
-    <!-- RIGHT COLUMN: vertical timeline (pure CSS, no JS) -->
-    <div class="hackathon-timeline">
+                <!-- RIGHT COLUMN: vertical timeline (pure CSS, no JS) -->
+                <div class="hackathon-timeline">
 
-      <!-- Each timeline-item has a dot (::before in CSS) + text -->
-      <div class="timeline-item">
-        <h4 class="timeline-title">Kickoff and Team Formation</h4>
-        <p class="timeline-time">Day 1, 9:00 AM</p>
-      </div>
+                    <!-- Each timeline-item has a dot (::before in CSS) + text -->
+                    <div class="timeline-item">
+                        <h4 class="timeline-title">Kickoff and Team Formation</h4>
+                        <p class="timeline-time">Day 1, 9:00 AM</p>
+                    </div>
 
-      <div class="timeline-item">
-        <h4 class="timeline-title">Building Begins</h4>
-        <p class="timeline-time">Day 1, 12:00 PM</p>
-      </div>
+                    <div class="timeline-item">
+                        <h4 class="timeline-title">Building Begins</h4>
+                        <p class="timeline-time">Day 1, 12:00 PM</p>
+                    </div>
 
-      <div class="timeline-item">
-        <h4 class="timeline-title">Submission Deadline</h4>
-        <p class="timeline-time">Day 2, 6:00 PM</p>
-      </div>
+                    <div class="timeline-item">
+                        <h4 class="timeline-title">Submission Deadline</h4>
+                        <p class="timeline-time">Day 2, 6:00 PM</p>
+                    </div>
 
-      <!-- Last item: no bottom margin needed, handled in CSS -->
-      <div class="timeline-item last">
-        <h4 class="timeline-title">Winners Announced</h4>
-        <p class="timeline-time">Day 2, 8:00 PM</p>
-      </div>
+                    <!-- Last item: no bottom margin needed, handled in CSS -->
+                    <div class="timeline-item last">
+                        <h4 class="timeline-title">Winners Announced</h4>
+                        <p class="timeline-time">Day 2, 8:00 PM</p>
+                    </div>
 
-    </div>
+                </div>
 
-  </div>
-</section>
-<!-- =================== END HACKATHON DETAILS SECTION =================== -->
-
-
-
-
-
+            </div>
+        </section>
+        <!-- =================== END HACKATHON DETAILS SECTION =================== -->
 
 
 
 
 
     </main>
-    </div>
+
+            <!-- FOOTER SECTION START FROM HERE -->
+
+        <footer>
+            <div class="event_footer_newsletter">
+                <p class="event_footer_newsletter_title">
+                    Join our mailing list to hear all the latest about events, news and more
+                </p>
+                <form action="">
+                    <input type="text" name="name" placeholder="First name">
+                    <input type="text" name="name" placeholder="Last name">
+                    <input type="email" name="email" placeholder="Email">
+                    <select name="country" id="" class="select">
+                        <option value="" disabled selected>Select country</option>
+                        <option value="bangladesh">Bangladesh</option>
+                        <option value="turkiye">Turkiye</option>
+                        <option value="gb">England</option>
+                        <option value="oman">Oman</option>
+                    </select>
+                    <button type="submit" class="common_btn">Subscribe</button>
+
+                </form>
+            </div>
+
+            <div class="link_footer">
+                <div class="link_footer_flex">
+                    <div class="link_container">
+                        <div class="link_title">Explore</div>
+                        <ul>
+                            <li><a href="">Conference Topics</a></li>
+                            <li><a href="">Poster Gallery</a></li>
+                            <li><a href="">Speakers</a></li>
+                            <li><a href="">Startups & VCs</a></li>
+                            <li><a href="">Workshops, Training Labs & Certification</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_container">
+                        <div class="link_title">Discover</div>
+                        <ul>
+                            <li><a href="">GTC Live Pregame</a></li>
+                            <li><a href="">Keynote</a></li>
+                            <li><a href="">Sponsors & Exhibitors</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_container">
+                        <div class="link_title">More</div>
+                        <ul>
+                            <li><a href="">Code of Conduct</a></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">See All Events</a></li>
+                        </ul>
+                    </div>
+                </div >
+                <div class="social_link">
+                    <div class="footer_logo">
+                        <a href=""><img src="./assets/footer-logo.png" alt=""></a>
+                    </div>
+                    <div class="med_link"><i class="fa-brands fa-facebook-f"></i></div>
+                    <div class="med_link"><i class="fa-brands fa-instagram"></i></div>
+                    <div class="med_link"><i class="fa-brands fa-linkedin"></i></div>
+                </div>
+            </div>
+
+            <div class="bottom_footer">
+                <ul>
+                    <li><a href="">Privacy Policy |</a></li>
+                    <li><a href="">Your Privacy Choices |</a></li>
+                    <li><a href="">Terms of Service |</a></li>
+                    <li><a href="">Accessibility |</a></li>
+                    <li><a href="">Corporate Policies |</a></li>
+                    <li><a href="">Product Security |</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                    <p class="copyright">Copyright © 2026</p>
+
+            </div>
+
+        </footer>
+    
+</body>
 
 </html>

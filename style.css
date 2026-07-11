@@ -148,3 +148,104 @@ url("./assets/banner.jpg");
     font-size: 1rem;
 }
 /*      <!-- Meet the Speakers Section End -->  */
+
+
+/*   <!------ Pricing Section starts from here---- --> */
+.pricing_container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.pricing_container h2{
+    text-align: center;
+    font-size: 3rem;
+}
+.date_line{
+    text-align: center;
+    font-size: 1rem;
+    color: gray;
+    margin: 1rem 0;
+}
+.pricing_cards{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
+}
+
+
+
+
+.pricing_card{
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.card_type{
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: gray;
+}
+.card_price{
+    font-size: 2.9rem;
+}
+
+.card_accent{
+    font-size: 0.8rem;
+    color: gray;
+}
+.pricing_card_info{
+    padding: 1rem 2rem;
+}
+.pricing_card ul{
+    padding: 1rem 2.5rem;
+}
+.pricing_card ul li{
+    list-style-type: disc;
+    margin-bottom: 0.9rem;
+}
+.pricing_card ul li::marker{
+    color:#1D4ED8
+}
+.pricing_card hr{
+    width: 85%;
+    margin: 1.5rem auto;
+    
+}
+/* special card */
+.special_card{
+    background: #333333;
+}
+.special_card .card_type{
+    color: blue;
+}
+.special_card .card_price, .special_list{
+    color: #ffffff;
+}
+
+
+
+/* little work on pricing btn */
+.pricing_btn{
+    display: block;
+    width: 85%;
+    margin: 1rem auto;
+    padding: 1rem 0;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1rem;
+    border: 1px solid;
+    
+}
+.standard{
+    border-color: #1D4ED8;
+    color: #1D4ED8;
+}
+.common_btn.pro{
+    width: 95%;
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem 0;
+}
+
+/*   <!------ Pricing Section END Here---- --> */
